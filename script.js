@@ -11,8 +11,11 @@ document.addEventListener('keydown', function (event) {
     }
 
     if (command === 'help') {
-        document.getElementById("the only one is date, for now").innerHTML = d;
+        document.getElementById("Command_line").innerHTML = "the only one is date, for now";
       }
+    else {
+        document.getElementById("Command_line").innerHTML = "Command"+command"Is not recognized.....for now";
+    }
 
   }
 });
