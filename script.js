@@ -11,11 +11,15 @@ document.addEventListener('keydown', function (event) {
     }
 
     if (command === 'help') {
-        document.getElementById("Command_line").innerHTML = "the only one is date, for now";
+        document.getElementById("the only one is date, for now").innerHTML = d;
       }
-    else {
-        document.getElementById("Command_line").innerHTML = "Command"+command"Is not recognized.....for now";
-    }
 
   }
 });
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  
+  window.location.href = "mobile.html";
+} else {
+   //nothing, they are on pc
+}
