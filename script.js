@@ -11,7 +11,7 @@ document.addEventListener('keydown', function (event) {
     }
 
     if (command === 'help') {
-        document.getElementById("the only one is date, for now").innerHTML = d;
+        document.getElementById("Command_Line").innerHTML = "the only one is date, for now";
       }
 
   }
