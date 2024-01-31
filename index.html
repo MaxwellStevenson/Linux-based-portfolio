@@ -12,11 +12,17 @@
   <link href="assets/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload>
   <noscript>:( run javascript or this website no worky</noscript>
-  <input id="userInput" autocomplete="off">
-  <p id="Command_Line"></p>
 
+  <div id="userInputContainer" style="display: flex; align-items: center;">
+    <p style="margin: 0;"> guest@terminal.maxwell.com$~</p>
+    <input id="userInput" autocomplete="off">
+  </div>
+  
+<div>
+  <p id="Command_Line"></p>
+</div>
   <script src="script.js"></script>
 
 </body>
