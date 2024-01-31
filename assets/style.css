@@ -1,1 +1,17 @@
+#userInput {
+  color: #000; /* Set your desired text color */
+  border: none; /* Remove the border */
+  outline: none;
+}
+.line-break {
+    margin-bottom: 10px;
+  }
 
+
+.invisible-hr {
+  border: none;
+  height: 1px;
+  color: transparent;
+  background-color: transparent;
+  margin: 10px 0; /* Adjust margin for spacing */
+}
