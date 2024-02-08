@@ -36,12 +36,6 @@ document.addEventListener('keydown', function (event) {
   }
 });
 
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  //console.log(navigator.userAgent)
-  window.location.href = "mobile.html";
-} else {
-  // Nothing, they are on PC
-}
 
 function moveDivUnderCommand() {
   // Get the elements
@@ -68,5 +62,4 @@ let whoami1 = "<p>My name is Maxwell Stevenson, I am a high school freshman that
 let help = "<p>Commands:</p><span class='line-break'></span><p>echo- repeats phrases</p><span class='line-break'></span><p>whoami- Who am I? (Pronounced woah-mi)</p><span class='line-break'></span><p>clear- clears all previous commands</p><span class='line-break'></span><p>date- displays the time and date</p>"
 
 let echo ="<p>Make sure to have a phrase after this command!</p>"
-
 
